@@ -40,6 +40,14 @@
   border-radius: 5px;
 }
 
+.error-message {
+  color: #d04040;
+  font-size: 12px;
+  margin-top: -5px; 
+  margin-bottom: 5px; 
+}
+
+
 .find-pw-button {
   padding: 10px;
   background-color: #d04040;

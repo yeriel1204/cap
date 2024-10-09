@@ -1,10 +1,12 @@
 import React from 'react';
 import './SignInPage.css';
 import { useNavigate } from 'react-router-dom';
-import logo from './logo.png'; // logo.png 파일을 import
+import logo from './logo.png'; 
 
 const SignInPage = () => {
   const navigate = useNavigate();
+
+  // 아이디 중복 확인
 
   return (
     <div className="signup-container">

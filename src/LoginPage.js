@@ -6,6 +6,8 @@ import logo from './logo.png';
 const LoginPage = () => {
   const navigate = useNavigate();
 
+  //아이디 유효 + 비밀번호 확인
+
   return (
     <div className="login-container">
       <div className="logo">
