@@ -1,4 +1,4 @@
-.find-pw-container {
+.reset-pw-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,34 +6,17 @@
   height: calc(var(--vh, 1vh) * 100);
 }
 
-.logo {
-  width: 100px;
-  height: 100px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 20px;
-}
-
-.logo-image {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.find-pw-title {
+.reset-pw-title {
   padding-bottom: 10px;
 }
 
-.find-pw-form {
+.reset-pw-form {
   width: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.find-pw-input {
+.reset-pw-input {
   padding: 10px;
   margin: 10px 0;
   border: 1px solid #929292;
@@ -47,8 +30,14 @@
   margin-bottom: 5px; 
 }
 
+.success-message {
+  color: #d04040;
+  font-weight: bold;
+  margin-top: 10px;
+}
 
-.find-pw-button {
+
+.reset-pw-button {
   padding: 10px;
   background-color: #d04040;
   color: #ffffff;
