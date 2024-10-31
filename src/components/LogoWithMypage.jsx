@@ -8,7 +8,7 @@ function LogoWithMypage(){
         navigate('/home');
     }
     return(
-        <div className="logo2"> 
+        <div className="Logo2"> 
             <img  onClick={home}  className="logoImage" src="/image/logo.gif" alt="MovieBook" />
             <img onClick={null} className="mypage" src="/image/mypage.png" alt="mypage"></img>
         </div>

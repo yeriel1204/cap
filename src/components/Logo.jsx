@@ -8,9 +8,9 @@ function Logo() {
     const home = () => {
         navigate('/home');
     }
-    
+
     return(
-        <div className="logo"> 
+        <div className="Logo"> 
             <img  onClick={home}  src="/image/logo.gif" alt="MovieBook" />
         </div>
     );
