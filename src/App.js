@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import './App.css';
 import logo from './logo.png';
 
@@ -15,12 +16,9 @@ function App() {
       <div className="nav">
         <div>app</div>
       </div>
-      
       <img src={logo}/>
     </div>
   );
 }
-
-
 
 export default App;
