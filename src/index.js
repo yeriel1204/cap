@@ -25,7 +25,7 @@ root.render(
         <Route path="/home" element={<Home/>}/>
         <Route path="/movie" element={<MovieTaste/>}/>
         <Route path="/bookInfo" element={<BookInfo/>}/>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/signin" element={<SignInPage />} />
         <Route path="/find-id" element={<FindIDPage />} />
         <Route path="/reset-pw" element={<ResetPWPage />} />
