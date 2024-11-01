@@ -1,12 +1,18 @@
 import { react, useEffect, useState } from "react"
+<<<<<<< HEAD
 import { useNavigate } from "react-router-dom";
+=======
+>>>>>>> 41fe2e0ba4ebf5a778d2c7166f095312874cf6f1
 
 function BottomNavigationBar(){
 
     const [searchSelected, setSearchSelected] = useState(false);
     const [myMovieSelected, setMyMovieSelected] = useState(false);
     const [myBookSelected, setMyBookSelected] = useState(false);
+<<<<<<< HEAD
     const navigate = useNavigate();
+=======
+>>>>>>> 41fe2e0ba4ebf5a778d2c7166f095312874cf6f1
 
     var search = "./image/search.png";
     var myMovie = "./image/myMovie.png";
@@ -18,6 +24,7 @@ function BottomNavigationBar(){
 
     const selectSearch = () => {
         setSearchSelected(prev => !prev);
+<<<<<<< HEAD
         //navigate('/searchmovie');
     };
     const selectMyMovie = () => {
@@ -27,6 +34,14 @@ function BottomNavigationBar(){
     const selectMyBook = () => {
         setMyBookSelected(prev => !prev);
         //navigate('/mybook');
+=======
+    };
+    const selectMyMovie = () => {
+        setMyMovieSelected(prev => !prev);
+    };
+    const selectMyBook = () => {
+        setMyBookSelected(prev => !prev);
+>>>>>>> 41fe2e0ba4ebf5a778d2c7166f095312874cf6f1
     };
 
 
